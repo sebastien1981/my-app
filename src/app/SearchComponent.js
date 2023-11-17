@@ -43,7 +43,7 @@ const SearchComponent = () => {
         `https://api.spotify.com/v1/search?q=${query}&type=artist&limit=10&offset=${offset}`,
         {
           headers: {
-            Authorization: `Bearer BQBIuvGqPiZRVA0KMVnry5o6hzdgYvrBPuJ_80J175T00ExaGOjpfN_D3VPRrx-RAMDlBPywLsU3JfETJCz1NMiTjQqlI5gr_WD5Z6r7s1ujLwz9b7w`,
+            Authorization: `Bearer Token`,
           },
         }
       );
